@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.summary {
+  margin-top: 50px;
+  width: 600px;
+  color: #474747;
+}
+
+.summary .why {
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.summary .code {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.summary p {
+  margin-top: 20px;
+}
+
+.ma-style {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.my-style {
+  border: 0;
+}
+
+.my-style img {
+  width: 100%;
+  height: 200px;
+}
+
+@media screen and (min-width: 458px) and (max-width: 767px) {
+  .my-style img {
+    width: 100%;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 458px) {
+  .my-style img {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */
